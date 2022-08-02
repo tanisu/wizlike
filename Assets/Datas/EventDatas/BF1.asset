@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40eb946f31923c142bd4465bff080f7b, type: 3}
+  m_Name: BF1
+  m_EditorClassIdentifier: 
+  Position: []
+  events:
+  - pos: {x: 5, y: 10}
+    eventType: 4
+  - pos: {x: 13, y: 15}
+    eventType: 4
+  - pos: {x: 0, y: 19}
+    eventType: 3
+  - pos: {x: 7, y: 18}
+    eventType: 5
+  - pos: {x: 7, y: 19}
+    eventType: 5
+  - pos: {x: 3, y: 15}
+    eventType: 5
+  - pos: {x: 3, y: 16}
+    eventType: 5
+  - pos: {x: 6, y: 12}
+    eventType: 5
+  - pos: {x: 6, y: 13}
+    eventType: 5
+  traps: []
+  warps:
+  - warpIn: {x: 5, y: 10}
+    warpOut: {x: 15, y: 15}
+  - warpIn: {x: 13, y: 15}
+    warpOut: {x: 15, y: 15}
+  messages:
+  - pos: {x: 0, y: 19}
+    message: "\u3044\u3057\u306E\u306A\u304B\u306B\u3044\u3066\uFF01"
+  shop:
+  - pos: {x: 7, y: 18}
+    shopName: "\u30DD\u30F3\u30BB\u6B66\u5668\u5E97"
+    storeDatas: {fileID: 11400000, guid: 141514a2e5e2e104496662488b478e62, type: 2}
+  - pos: {x: 7, y: 19}
+    shopName: "\u30DD\u30F3\u30BB\u6B66\u5668\u5E97"
+    storeDatas: {fileID: 0}
+  - pos: {x: 3, y: 15}
+    shopName: "\u55AB\u8336\u30E9\u30E2\u30B9"
+    storeDatas: {fileID: 0}
+  - pos: {x: 3, y: 16}
+    shopName: "\u55AB\u8336\u30E9\u30E2\u30B9"
+    storeDatas: {fileID: 11400000, guid: b18cb8b3fa050d048b03f85e5b548619, type: 2}
+  - pos: {x: 6, y: 12}
+    shopName: "\u30E4\u30B9\u30AA\u5546\u5E97"
+    storeDatas: {fileID: 0}
+  - pos: {x: 6, y: 13}
+    shopName: "\u30E4\u30B9\u30AA\u5546\u5E97"
+    storeDatas: {fileID: 11400000, guid: 535872850a698934fa7f0a946bfc556a, type: 2}
