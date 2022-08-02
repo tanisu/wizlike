@@ -9,7 +9,7 @@ public class BattleSystem : MonoBehaviour
 
     public void BattleStart()
     {
-        Debug.Log("Start battle");
+        
     }
 
     private void _battleEnd()

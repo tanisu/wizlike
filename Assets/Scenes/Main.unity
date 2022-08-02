@@ -3406,7 +3406,7 @@ MonoBehaviour:
   eventController: {fileID: 1519461991}
   store: {fileID: 481531675}
   battleSystem: {fileID: 1928224883}
-  encountRate: 20
+  encountRate: 100
   isLomilwa: 1
   currentState: 0
 --- !u!1 &1047282109
