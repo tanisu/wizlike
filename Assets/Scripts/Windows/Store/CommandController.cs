@@ -14,14 +14,16 @@ public class CommandController : MonoBehaviour
 
     public void InitCommand()
     {
-        gameObject.SetActive(true);
         currentId = 0;
+        
+        
         selectableTexts = GetComponentsInChildren<SelectableText>();
         foreach (SelectableText selectableText in selectableTexts)
         {
             selectableText.OnSelectAction = MoveArrowTo;
         }
         selectableTexts[currentId].Select();
+        gameObject.SetActive(true);
     }
 
 

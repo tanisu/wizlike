@@ -225,8 +225,8 @@ public class GameManager : MonoBehaviour
     void _startBattle()
     {
         currentState = State.BATTLE;
-        GameView.gameObject.SetActive(false);
-        DoorsView.gameObject.SetActive(false);
+        //GameView.gameObject.SetActive(false);
+        //DoorsView.gameObject.SetActive(false);
         battleSystem.gameObject.SetActive(true);
         battleSystem.BattleStart();
     }
@@ -234,8 +234,8 @@ public class GameManager : MonoBehaviour
     void _endBattle()
     {
         currentState = State.MOVE;
-        GameView.gameObject.SetActive(true);
-        DoorsView.gameObject.SetActive(true);
+        //GameView.gameObject.SetActive(true);
+        //DoorsView.gameObject.SetActive(true);
         battleSystem.gameObject.SetActive(false);
 
     }
